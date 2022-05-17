@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="nav-wrapper green darken-3">
         <div className="container">
-            <a className="brand-logo">Strange Animal Facts</a>
+            <a href="/" className="brand-logo">Strange Animal Facts</a>
             <ul className="right">
                 <li><a href="/">Home</a></li>
                 <li><a href="/axolotl">Axolotl</a></li>
