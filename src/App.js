@@ -1,6 +1,6 @@
 import {Component} from "react";
 import Navbar from "./components/Navbar"
-import {BrowserRouter, Route} from "react-router-dom"
+import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 
 import Home from "./components/Home"
@@ -14,10 +14,12 @@ class App extends Component {
     <BrowserRouter>
       <div className="App">
         <Navbar />
+        <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Axolotl" component={Axolotl} />
-        <Route path="/Aye-aye" component={Ayeaye} />
-        <Route path="/Platypus" component={Platypus} />
+        <Route path="/axolotl" component={Axolotl} />
+        <Route path="/aye-aye" component={Ayeaye} />
+        <Route path="/platypus" component={Platypus} />
+        </Switch>
       </div>
     </BrowserRouter>
   );
