@@ -9,7 +9,7 @@ const Navbar = () => {
             <ul className="right">
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><Link to="/axolotl">Axolotl</Link></li>
-                <li><Link to="/aye-aye">Aye-aye</Link></li>
+                <li><Link to="/blobfish">Blobfish</Link></li>
                 <li><Link to="/platypus">Platypus</Link></li>
             </ul>
         </div>

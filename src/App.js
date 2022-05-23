@@ -5,7 +5,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 import Home from "./components/Home"
 import Axolotl from "./components/Axolotl"
-import Ayeaye from "./components/Aye-aye"
+import Blobfish from "./components/Blobfish"
 import Platypus from "./components/Platypus"
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
         <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/axolotl" component={Axolotl} />
-        <Route path="/aye-aye" component={Ayeaye} />
+        <Route path="/blobfish" component={Blobfish} />
         <Route path="/platypus" component={Platypus} />
         </Switch>
       </div>
