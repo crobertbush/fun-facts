@@ -8,7 +8,9 @@ const Platypus = () => {
         <img src={platypus} alt="img" />
         <ul>
           <li>Scientific Name: Ornithorhynchus anatinus</li>
+          <br />
           <li>Despite this being a mammal, females lay eggs, they have a bill & webbed feet resembling a duck, and males have venomous stingers on their hind legs.</li>
+          <br />
           <li>When first discovered by British explorers, people thought it a hoax. The general public believed someone had sewn together several different animals similar to the mythical jackelope.</li>
         </ul>
     </div>

@@ -8,7 +8,9 @@ const Axolotl = () => {
         <img src={axolotl} alt="img" />
         <ul>
           <li>Scientific Name: Ambystoma mexicanum</li>
+          <br />
           <li>This species of salamander has both gills and lungs, but choose to live their entire life in water.</li>
+          <br />
           <li>Axolotls have an extraordinary regenerative ability. They are able to regrow bone, muscle, and skin from lost limbs. They are even capable of regrowing organs.</li>
         </ul>
     </div>
