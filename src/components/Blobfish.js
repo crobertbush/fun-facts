@@ -6,7 +6,11 @@ const Blobfish = () => {
     <div className="container center">
         <h4 className="center">Blobfish</h4>
         <img src={blobfish} alt="img" />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, maxime odio amet ea esse rerum, modi exercitationem, ad delectus nobis explicabo voluptate molestiae perferendis temporibus! Accusamus libero deleniti, ad dicta excepturi porro dolorem quae vel illo amet, ut quis asperiores?</p>
+        <ul>
+          <li>Scientific Name: Psychrolutes marcidus</li>
+          <li>Despite this being a fish, it doesn't possess a swim bladder. This fish maintains it's buoyancy thanks to it's gelatinous body.</li>
+          <li>It doesn't always look like a blob! Lacking all bones aside from something that resembles a spine, the blobfish keeps it's shape thanks to the immense pressure of the ocean.</li>
+        </ul>
     </div>
   )
 }
